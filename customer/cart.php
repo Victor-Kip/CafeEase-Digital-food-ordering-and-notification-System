@@ -29,7 +29,13 @@ include('partial/menu.php');
                     <tr>
                         <td><?php echo $item['product_name']; ?></td>
                         <td><?php echo $item['price']; ?></td>
-                        <td><?php echo $item['quantity']; ?></td>
+                        <td>
+                            <form action="update_cart.php" method="post">
+                                <input type="number" name="quantity" value="<?php echo $item['quantity']; ?>" min="1">
+                                <input type="hidden" name="product_ID" value="<?php echo $product_ID; ?>">
+                                <input type="submit" class="btn btn-sm btn-info" value="Update">
+                            </form>
+                        </td>
                         <td><?php echo $subtotal; ?></td>
                         <td>
                             <a href="remove_from_cart.php?product_ID=<?php echo $product_ID; ?>" class="btn btn-danger">Remove</a>
