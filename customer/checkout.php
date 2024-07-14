@@ -96,16 +96,17 @@ $conn->close();
                 ?>
 
                 <tr>
-                    <td><input type="hidden" name="customer_ID" value="<?php echo htmlspecialchars($customer_ID); ?>"></td>
+                    <td><input type="text" name="customer_ID" placeholder="Enters your Full ID Number"></td>
+                    
                 </tr>
                 <tr>
-                    <td><input type="hidden" name="customer_name" value="<?php echo htmlspecialchars($customer_name); ?>"></td>
+                    <td><input type="text" name="customer_name" placeholder="Enters your Full Name"></td>
                 </tr>
                 <tr>
-                    <td><input type="hidden" name="customer_phone_number" value="<?php echo htmlspecialchars($customer_phone_number); ?>"></td>
+                    <td><input type="tel" name="customer_phone_number" placeholder="Enters your Phone Number"></td>
                 </tr>
                 <tr>
-                    <td><input type="hidden" name="order_date" value="<?php echo htmlspecialchars($order_date); ?>"></td>
+                    <td><input type="date" name="order_date" p></td>
                 </tr>
                 <tr>
                     <td><input type="hidden" name="total_amount" value="<?php echo $total; ?>"></td>
