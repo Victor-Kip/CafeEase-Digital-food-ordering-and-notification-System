@@ -14,6 +14,7 @@ include('login_check.php');
     <!-- Link our CSS file -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../css/thanks.css">
 </head>
 
 <body>
