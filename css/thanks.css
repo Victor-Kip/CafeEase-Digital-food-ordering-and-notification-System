@@ -1,0 +1,49 @@
+/* Style for the h1 */
+h1 {
+    text-align: center; /* Center align text */
+    color: #333; /* Dark gray color for text */
+    margin-bottom: 20px; /* Add some space below */
+  }
+  
+  /* Style for the p */
+  p {
+    text-align: center; /* Center align text */
+    color: #666; /* Light gray color for text */
+    font-size: 18px; /* Larger font size */
+  }
+  
+  /* Style for the a (link/button) */
+  .btn {
+    display: inline-block; /* Make it inline-block */
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center align text */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .btn-primary {
+    /* Additional styling for primary button */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px; /* Smaller font size for smaller screens */
+    }
+    
+    p {
+      font-size: 16px; /* Smaller font size for smaller screens */
+    }
+    
+    .btn {
+      font-size: 14px; /* Smaller font size for smaller screens */
+    }
+  }
+  
